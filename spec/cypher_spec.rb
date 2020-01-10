@@ -1,3 +1,6 @@
+require "spec_helper"
+require "cypher"
+
 describe Cypher do
   it "Cyphers a given alphabet" do
     cypher = Cypher.new
