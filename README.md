@@ -23,3 +23,13 @@ First install repo
 #### Run tests using  
 
 `$ rspec`
+
+
+### Approach
+
+* First step was to test for single alphabet only. I tried to think of the simplest place to start and this seemed to be taking the input and returning the desired output and gradually added complexity.
+* I started with a single 'Cypher' class and 'string_to_cypher' method which takes single argument to work through the criteria.
+* After passing all the tests, the method was fully working and meeting the testing criteria I refactored the code where it was neccessary.
+
+### Edgecases
+ 
