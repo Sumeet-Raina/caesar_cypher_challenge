@@ -22,4 +22,18 @@ describe Cypher do
     expect(cypher.string_to_cypher("ab")).to eq("de")
   end
 
+  it "Cyphers given three lettered string" do
+    cypher = Cypher.new
+    expect(cypher.string_to_cypher("cop")).to eq("frs")
+  end
+
+  it "Cyphers string of any length" do
+    cypher = Cypher.new
+    expect(cypher.string_to_cypher("homeflow")).to eq("krphiorz")
+  end
+  
+  it "Cyphers string of any length" do
+    cypher = Cypher.new
+    expect(cypher.string_to_cypher("voldemort")).to eq("yroghpruw")
+  end
 end 
