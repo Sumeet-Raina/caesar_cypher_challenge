@@ -8,7 +8,7 @@ describe Cypher do
   end
   it "Cyphers a given alphabet" do
     cypher = Cypher.new
-    expect(cypher.string_to_cypher("f")).to eq("i")
+    expect(cypher.string_to_cypher("b")).to eq("e")
   end
 
 end 

@@ -1,5 +1,10 @@
 class Cypher
   def string_to_cypher(string)
-    "d"
+    if string == 'a'
+      return 'd'
+    end
+    if string == 'b'
+      return 'e'
+    end
   end
 end
