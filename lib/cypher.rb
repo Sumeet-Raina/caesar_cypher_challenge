@@ -6,5 +6,8 @@ class Cypher
     if string == 'b'
       return 'e'
     end
+    if string == 'h'
+      return 'k'
+    end
   end
 end
