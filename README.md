@@ -14,16 +14,15 @@
 ### To test caesar_cypher_challenge
 
 First install repo
-<hr>
 
 #### Clone the caesar_cypher_challenge repo 
 
 `$ git clone git@github.com:Sumeet-Raina/caesar_cypher_challenge.git`
-<hr>
+
 #### Change directory  
 
 `$ cd caesar_cypher_challenge`
-<hr>
+
 
 #### Run tests using  
 
@@ -36,5 +35,6 @@ First install repo
 * I started with a single 'Cypher' class and 'string_to_cypher' method which takes single argument to work through the criteria.
 * After passing all the tests, the method was fully working and meeting the testing criteria I refactored the code where it was neccessary.
 <hr>
+
 ### Edgecases
  
