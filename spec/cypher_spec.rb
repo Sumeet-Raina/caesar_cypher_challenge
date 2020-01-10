@@ -36,4 +36,10 @@ describe Cypher do
     cypher = Cypher.new
     expect(cypher.string_to_cypher("voldemort")).to eq("yroghpruw")
   end
+  
+  it "raises an error" do
+    cypher = Cypher.new
+    expect{ cypher.string_to_cypher("b1") }.to raise_error "Your string contains a number"
+  end
+
 end 
