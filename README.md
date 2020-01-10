@@ -29,6 +29,7 @@ First install repo
 `$ rspec`
 
 <hr>
+
 ### Approach
 
 * First step was to test for single alphabet only. I tried to think of the simplest place to start and this seemed to be taking the input and returning the desired output and gradually added complexity.
