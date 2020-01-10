@@ -17,4 +17,9 @@ describe Cypher do
     expect(cypher.string_to_cypher("h")).to eq("k")
   end
 
+  it "Cyphers two given alphabets" do
+    cypher = Cypher.new
+    expect(cypher.string_to_cypher("ab")).to eq("de")
+  end
+
 end 
